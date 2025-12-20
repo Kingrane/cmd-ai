@@ -29,7 +29,7 @@ export default async function handler(req, res) {
             },
             body: JSON.stringify({
                 // Модель. Мы используем бесплатную и мощную Llama 3
-                "model": "meta-llama/llama-3.1-8b-instruct:free",
+                "model": "openai/gpt-oss-20b:free",
                 "messages": [
                     {
                         "role": "user",
