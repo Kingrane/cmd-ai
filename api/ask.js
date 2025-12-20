@@ -29,7 +29,7 @@ export default async function handler(req, res) {
             },
             body: JSON.stringify({
                 // Модель. Мы используем бесплатную и мощную Llama 3
-                "model": "openai/gpt-oss-20b:free",
+                "model": "xiaomi/mimo-v2-flash:free",
                 "messages": [
                     {
                         "role": "user",
