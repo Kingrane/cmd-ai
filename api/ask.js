@@ -24,7 +24,7 @@ export default async function handler(req, res) {
                 'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`, // <-- Наш секретный ключ!
                 'Content-Type': 'application/json',
                 // OpenRouter требует указать HTTP-Referer и X-Title
-                'HTTP-Referer': 'https://your-project.vercel.app', // Замени на свой домен после деплоя
+                'HTTP-Referer': 'https://cmd-ai.vercel.app', // Замени на свой домен после деплоя
                 'X-Title': 'Terminal AI Helper',
             },
             body: JSON.stringify({
