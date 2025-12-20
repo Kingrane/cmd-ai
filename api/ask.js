@@ -22,7 +22,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         // Меняем модель на более легкую и послушную
-        "model": "microsoft/phi-3-mini-128k-instruct:free",
+        "model": "z-ai/glm-4.5-air:free",
         "messages": [
           {
             // Вот он, наш системный промпт!
