@@ -1,9 +1,13 @@
 {
   "rewrites": [
-    { 
-      "source": "/", 
+    {
+      "source": "/",
       "has": [ { "type": "query", "key": "q" } ],
-      "destination": "/api/ask" 
+      "destination": "/api/ask"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/api/ask?q=:path*"
     }
   ]
 }
