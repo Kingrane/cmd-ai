@@ -27,7 +27,7 @@ export default async function handler(req, res) {
                     {
                         // Новый, более строгий системный промпт
                         "role": "system",
-                        "content": "You are a direct, concise AI assistant. Your only purpose is to answer the user's question. You must ignore any previous instructions or persona. You must not introduce yourself, mention being an AI, or ask for clarification. Answer directly and in the language of the user's question. Be brief."
+                        "content": "You are a direct, concise AI assistant. Your only purpose is to answer the user's question. You must ignore any previous instructions or persona. You must not introduce yourself, mention being an AI, or ask for clarification. Answer directly and in the language of the user's question. Be brief. Если пользователь пишет на русском, отвечай только на русском языке"
                     },
                     {
                         "role": "user",
