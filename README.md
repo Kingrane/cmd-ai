@@ -9,7 +9,7 @@
 
 ## Пример использования
 
-1. В терминале:
+В терминале:
 ```bash
 curl -L cmd-ai.vercel.app/how+many+days+in+one+year
 ```
