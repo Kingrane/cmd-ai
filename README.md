@@ -11,9 +11,9 @@
 
 1. В терминале:
 ```bash
-curl -L cmd-ai.vercel.app/api/ask?q="how+are+you"
+curl -L cmd-ai.vercel.app/how+many+days+in+one+year
 ```
 если хочется пробелы вместо плюсиков :D
 ```
-curl -L -G "cmd-ai.vercel.app/api/ask" --data-urlencode "q=how many days in one year"
+curl -L -G "cmd-ai.vercel.app" --data-urlencode "q=how many days in one year"
 ```
