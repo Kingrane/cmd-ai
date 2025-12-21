@@ -13,3 +13,7 @@
 ```bash
 curl -L cmd-ai.vercel.app/api/ask?q="how+are+you"
 ```
+если хочется пробелы вместо плюсиков :D
+```
+curl -L -G "cmd-ai.vercel.app/api/ask" --data-urlencode "q=how many days in one year"
+```
