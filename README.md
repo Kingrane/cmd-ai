@@ -11,4 +11,5 @@
 
 1. В терминале:
 ```bash
-curl -k "https://cmd-ai.vercel.app/api/ask?q=как+дела+друг"
+curl -L cmd-ai.vercel.app/api/ask?q="how+are+you"
+```
