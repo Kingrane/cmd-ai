@@ -22,7 +22,7 @@ export default async function handler(req, res) {
             },
             body: JSON.stringify({
                 // Возвращаем самую быструю модель
-                "model": "xiaomi/mimo-v2-flash:free",
+                "model": "nvidia/nemotron-3-super-120b-a12b:free",
                 "messages": [
                     {
                         // Новый, более строгий системный промпт
